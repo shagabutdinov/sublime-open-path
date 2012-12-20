@@ -1,0 +1,4 @@
+// As always, please edit User.sublime-settings rather than this file.
+{
+	"file_manager": "xdg-open '{0}'"
+}
