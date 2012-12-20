@@ -19,19 +19,19 @@ Configuration
 
 This is my preferred configuration. Add it to your ".sublime-keymap" to start using the plugin.
 
-  {
-    "keys": ["f10"],
-    "command": "open_project_folder"
-  },
+    {
+      "keys": ["f10"],
+      "command": "open_project_folder"
+    },
 
-  {
-    "keys": ["ctrl+f10"],
-    "command": "open_file_folder"
-  }
+    {
+      "keys": ["ctrl+f10"],
+      "command": "open_file_folder"
+    }
 
 
 API usage
 ---------
 
-  import open_path
-  open_path.open( '/your/path/' ) # will open path in OS's file browser
+    import open_path
+    open_path.open( '/your/path/' ) # will open path in OS's file browser
