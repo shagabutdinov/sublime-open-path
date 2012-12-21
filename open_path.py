@@ -1,4 +1,4 @@
-import sublime, os
+import sublime
 from subprocess import call
 
 def open( folder ):

@@ -1,4 +1,4 @@
-import sublime_plugin, open_path
+import sublime_plugin, open_path, os
 
 class OpenFileFolder( sublime_plugin.WindowCommand ):
   def run( self ):
