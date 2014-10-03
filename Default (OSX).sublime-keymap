@@ -1,0 +1,11 @@
+[
+  {
+    "keys": ["f10"],
+    "command": "open_project_folder"
+  },
+
+  {
+    "keys": ["ctrl+f10"],
+    "command": "open_file_folder"
+  }
+]

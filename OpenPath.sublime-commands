@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "OpenPath: Open project folder",
+    "command": "open_project_folder"
+  },
+
+  {
+    "caption": "OpenPath: Open file folder",
+    "command": "open_file_folder"
+  }
+]
