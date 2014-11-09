@@ -1,4 +1,5 @@
-import sublime_plugin, open_path
+from OpenPath import open_path
+import sublime_plugin
 
 class OpenProjectFolder( sublime_plugin.WindowCommand ):
   def run( self ):

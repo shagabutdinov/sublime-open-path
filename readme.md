@@ -39,6 +39,11 @@ folders to your keymap file (command "open_path", {"path": "/home/leo"}).
 | Open file folder    | ctrl+f10           | OpenPath: Open file folder    |
 
 
+### Dependencies
+
+None
+
+
 ### API
 
 OpenPath.open_path:

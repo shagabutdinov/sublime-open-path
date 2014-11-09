@@ -1,11 +1,17 @@
 [
   {
     "keys": ["f10"],
-    "command": "open_project_folder"
+    "command": "open_project_folder",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["ctrl+f10"],
-    "command": "open_file_folder"
+    "command": "open_file_folder",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   }
 ]
