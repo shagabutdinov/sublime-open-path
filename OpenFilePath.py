@@ -6,4 +6,4 @@ class OpenFileFolder( sublime_plugin.WindowCommand ):
     if self.window.active_view() is None:
       return
 
-    open_path.open( os.path.dirname( self.window.active_view().file_name() ) )
+    open_path.open_path( os.path.dirname( self.window.active_view().file_name() ) )

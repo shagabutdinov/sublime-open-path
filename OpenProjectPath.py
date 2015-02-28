@@ -3,4 +3,4 @@ import sublime_plugin
 
 class OpenProjectFolder( sublime_plugin.WindowCommand ):
   def run( self ):
-    open_path.open( self.window.folders()[0] )
+    open_path.open_path( self.window.folders()[0] )
