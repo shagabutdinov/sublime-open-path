@@ -38,6 +38,12 @@ folders to your keymap file (command "open_path", {"path": "/home/leo"}).
 | Open project folder | f10                | OpenPath: Open project folder |
 | Open file folder    | ctrl+f10           | OpenPath: Open file folder    |
 
+## Customize shortcuts
+
+Open preferences->key bindings->user and add your own shortcuts example:
+
+	{"keys": ["alt+e"], "command": "open_file_folder"},
+	{"keys": ["ctrl+alt+e"], "command": "open_project_folder"}
 
 ### Dependencies
 
